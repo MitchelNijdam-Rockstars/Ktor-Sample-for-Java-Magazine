@@ -20,8 +20,11 @@ Or run via your favorite IDE (IntelliJ IDEA has good Ktor support).
 
 ## Contents
 
-| **File**         | **Contents**                                                                                           |
-|------------------|--------------------------------------------------------------------------------------------------------|
-| `Application.kt` | Main function that starts Netty Engine. Module that configures Routing and Security example endpoints. |
-| `Routing.kt`     | Contains a simple endpoint `/` that returns some text.                                                 |
-| `Security.kt`    | Endpoint secured by Basic Auth.                                                                        |
+| **Listing**   | **File**            | **Contents**                                                                                           |
+|---------------|---------------------|--------------------------------------------------------------------------------------------------------|
+| Listing 1     | `Application.kt`    | Main function that starts Netty Engine. Module that configures Routing and Security example endpoints. |
+| Listing 2     | `RoutingBuilder.kt` | The `get` function, part of the Ktor library source code.                                              |
+| Listing 3     | `CustomerRouting.kt`| Contains some basic endpoints                                                                          |
+| Listing 4     | `Security.kt`       | Endpoint secured by Basic Auth.                                                                        |
+| Listing 5     | `WebsocketServer.kt`| A simple and more elaborate example of a websocket (chat) server                                       |
+| Listing 6     | `WebsocketClient.kt`| Example code that can be used in a websocket client to send messages                                   |
